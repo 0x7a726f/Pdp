@@ -22,4 +22,4 @@ for i in range(0,candidates):
         winnerList.append(1)
 
 with open("voting.out.txt", "w") as votingOut:
-    votingOut.write("0" if len(winnerList) == 0 else len(winnerList))
+    votingOut.write(str("0" if len(winnerList) == 0 else len(winnerList)))
